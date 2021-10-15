@@ -15,7 +15,7 @@ int main()
     setlocale(LC_ALL, "Russian");
     int i;
     int p = 1;
-    for (i = 220; i < 10000; i++) {
+    for (i = 1; i < 10000; i++) {
         int two = sumDel(i);
         if (two == sumDel(i) && two  != 1 && two != i && i == sumDel(two))
             if (i != p) {
